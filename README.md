@@ -1,6 +1,9 @@
-# Sonarqube for Local Development
+# Sonarqube in Conatiners
 
-Running the Quality Server Sonarqube locally using Docker. Collecting both Unit and Integration tests in different phases of development.
+* Local Development using Docker: Running the Quality Server Sonarqube locally using Docker. Collecting both Unit and Integration tests in different phases of development.
+* Remote in Kuberentes: For a remote installation to support development
+
+It's intended for different audiences:
 
 * For Dev Engineers: Many tools that helps with code quality.
 * For QA Engineers: All reports from developers, ability to better triage bugs.
@@ -14,7 +17,11 @@ All descriptions of the new Sonarqube at the following:
 * http://www.sonarqube.org/github-pull-request-analysis-helps-fix-the-leak/
 * https://github.com/integrations/sonarqube
 
-# Requirements
+## Remote in Kubernetes
+
+* Go to the dir `./k8s` and see the deployment scripts
+
+# Local Development using Docker
 
 * Docker Engine 1.12.x or newer
 * Docker Compose 1.8.x or newer
